@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:green;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  padding: 16px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+.d{
+	text-align:center;
+}
+</style>
+</head>
+<body>
+<div class="r">
+	<a href = "https://www.iiit.ac.in/" ><img src = "iiith.png" width = "100" height = "100"></a>	
+	<a href= " https://serc.iiit.ac.in/rdip " ><p align = "right" ><b> RDIP </b></p></a>
+	<ul>
+		<li style="font-size:200%"><a href = "homepage.html" > Home </a></li>
+		<li style="font-size:200%"><a href = "registration.html" > Registration Form </a></li>
+	</ul>
+	</div>
+	<div class="d">
+		<h3>*fill the registration page with correct details</h3>
+	<form action="details.html">
+		<label for="fname">First name:</label>
+		<input type="text" id="fname" required><br>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email"required><br>
+		
+		<table align="center"><tr>
+						<td>Date of Birth: </td>
+						<td>
+						<select name="date" required>
+						<option>--Date--</option>
+						<option>01</option><option>02</option><option>03</option><option>04</option><option>05</option><option>06</option><option>07</option><option>08</option><option>09</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option><wbr>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option><wbr>31</option>
+						</select>   
+						<select name="month">
+						<option>--MONTH--</option>
+						<option>JAN</option><option>FEB</option><option>MAR</option><option>APR</option><option>MAY</option><option>JUN</option><option>JUL</option><option>AUG</option><option>SEP</option><option>OCT</option><option><wbr>NOV</option><option>DEC</option>
+						</select>   
+						<select name="year">
+						<option>--YEAR--</option>
+						<option>1980</option><option>1981</option><option>1982</option><option>1983</option><option>1984</option><option>1985</option><option>1986</option><option>19<wbr>87</option><option>1988</option><option>1989</option><option>1990</option><option>1991</option><option>1992</option><option>1993</option><option>1994</option><option><wbr>1995</option><option>1996</option><option>1997</option><option>1998</option><option>1999</option>
+						<option>2000</option><option>2001</option><option>2002</option><option>2003</option><option>2004</option><option>2005</option><option>2006</option><option>20<wbr>07</option><option>2008</option><option>2009</option><option>2010</option><option>2011</option><option>2012</option><option>2013</option><option>2014</option><option><wbr>2015</option><option>2016</option><option>2017</option><option>2018</option><option>2019</option>
+						<option>2020</option><option>2021</option>
+						</select>
+						</td>
+					</tr>
+		</table><br>
+		<label>Phone Number:</label>
+		<input type="number" maxlength="10" required><br>
+		
+		<label for="male">gender:</label><br>
+		<input type="radio"/>male
+		<input type="radio">female
+		<input type="radio">other<br>
+		
+		<label for="reason">Reason For RDIP:</label><br>		
+		<input type="checkbox" >HTML
+		<input type="checkbox" >CSS
+		<input type="checkbox" >Java Script</br>
+		
+		<label for="clgname">College:</label>
+		<input type="text" id="clgname" required><br>
+		<p>I Declare above details given by me are true</p>
+		<input type="submit" value="submit">
+		<input type="reset">
+		
+	</form>
+	</div>
+</body>
+</html>
